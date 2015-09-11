@@ -31,10 +31,18 @@
 	//nii mitu korda trüki välja palju, kui palju on vanust
 	for($i = 0; $i < $age; $i = $i + 1){
 		
-		
 		//see mida korratakse
 		echo "palju".$i." ";
 	}
 	
 	echo "õnne";
+?>
+
+<br>
+
+<?php
+
+	//kuupäev kujul: Friday, 11.09.2015
+	echo( date("l, d.m.y"));
+
 ?>
